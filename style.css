@@ -1,0 +1,79 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  line-height: 61px;
+  font-size: 38px;
+  color: #fff ;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #a0a0a0;
+  line-height: 43px;
+}
+
+a {
+  font-family: 'Lora';
+  font-size: 25px;
+  line-height: 40px;
+  color: #636363
+}
+
+.banner {
+  background-image: url("https://loremflickr.com/1000/500/paris");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container{
+  width: 700;
+  margin: 50px auto;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
